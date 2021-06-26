@@ -4,10 +4,10 @@
     <title>Hello World - JSP tutorial</title>
 </head>
 <body>
-  <h5>
+  <h1>
     <%="Hello World!...Happy learning jenkins"%>
     <p>Thanks for introducing this amazing concept, looking for a job change ASAP</p>
   
-  </h5>
+  </h1>
   </body>
 </html>
