@@ -5,9 +5,8 @@
 </head>
 <body>
   <h2>
-    <%="Hello World!.Happy learning jenkins and other concepts of CI/CD pipeline and kubernetes"%>
-    <p>Thanks for introducing this amazing concept, looking for a job change ASAP</p>
-    <p>Staging to production change verify, there is a lot more to do</p>
+    <%="Hello World!.Happy learning jenkins .. version 2 code pipeline"%>
+    
  
   </h2>
   </body>
