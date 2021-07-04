@@ -5,7 +5,7 @@
 </head>
 <body>
   <h2>
-    <%="Hello World!.Happy learning jenkins .. Running through automated  pipeline run through groovy pipeline code"%>  
+    <%="Arhan is a good Boy , This is continuous pipeline simulation in Devops"%>  
   </h2>
   </body>
 </html>
