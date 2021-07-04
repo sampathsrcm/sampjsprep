@@ -35,7 +35,8 @@ pipeline
         {
             steps
             {   
-                  build job: 'Deploy_application_staging_env'
+                  build job: 'Deploy_Application_Staging_Env'
+                  
             }
         }
         stage('Deploy in production environment') 
