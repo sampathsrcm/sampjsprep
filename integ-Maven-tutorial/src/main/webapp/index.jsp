@@ -5,7 +5,7 @@
 </head>
 <body>
   <h2>
-    <%="Hello World!.Happy learning jenkins .. version 2 code pipeline with staging and prod"%>  
+    <%="Hello World!.Happy learning jenkins .. Running through manual pipeline"%>  
   </h2>
   </body>
 </html>
