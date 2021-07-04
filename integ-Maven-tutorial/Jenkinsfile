@@ -1,7 +1,9 @@
-pipeline{
+pipeline
+{
     agent any
     
-    stages {
+    stages 
+    {
         
         stage('Build Application') 
          {
@@ -12,8 +14,10 @@ pipeline{
                 bat 'mvn -f integ-Maven-tutorial/pom.xml clean package'
                 
             }
-            post{
-                success {
+            post
+            {
+                success 
+                {
                     
                     echo "Archiving the artifacts ......."
                     
@@ -29,20 +33,23 @@ pipeline{
         }
         stage('Deploy in staging environment') 
         {
-            
-            build job: 'Deploy_application_staging_env'
-            
+            steps
+            {   
+                  build job: 'Deploy_application_staging_env'
+            }
         }
         stage('Deploy in production environment') 
         {
-              steps{
-                timeout(time:5, unit:'DAYS'){
-                 input message:'Approve PRODUCTION Deployment?'
-                } 
+              steps
+              {
+                 timeout(time:5, unit:'DAYS')
+                 {
+                     input message:'Approve PRODUCTION Deployment?'
+                 } 
             
-            build job: 'Deploy_application_production_env'
+                  build job: 'Deploy_application_production_env'
             
-        }
+               }
 
         }
         
