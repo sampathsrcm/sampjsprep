@@ -9,7 +9,7 @@ pipeline{
             steps
             {
                 
-                bat 'mvn clean package'
+                bat 'mvn -f integ-Maven-tutorial/pom.xml clean package'
                 
             }
             post{
