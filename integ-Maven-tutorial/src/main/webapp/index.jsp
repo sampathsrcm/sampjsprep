@@ -8,7 +8,7 @@
     <%="Hello World!.Happy learning jenkins and other concepts of CI/CD pipeline and kubernetes"%>
     <p>Thanks for introducing this amazing concept, looking for a job change ASAP</p>
     <p>Staging to production change verify, there is a lot more to do</p>
-  
+ 
   </h2>
   </body>
 </html>

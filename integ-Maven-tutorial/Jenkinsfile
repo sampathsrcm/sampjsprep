@@ -3,9 +3,11 @@ pipeline{
     
     stages {
         
-        stage {
+        stage('Build Application') 
+         {
             
-            steps('Build Application') {
+            steps
+            {
                 
                 sh 'mvn clean package'
                 
